@@ -14,9 +14,9 @@ other_donate_method = "paypal" # Other donate method
 site_of_project = "http://www.rkg.org" # If the project has a site it should be put here if it doesn't have its value it should be none
 git_of_project = "https://www.github.com/PEDROTUBER44/rkg" # Project git repository if it opensource
 checksum_rkg = [
-    "md5" = "55f921e91f1cc4aa9b4bbae8048d6911",
-    "sha256" = "accb47520537bf91993696b4b3568c681925dac69e7764948e3c7070dd4db481",
-    "sha512" = "397e2bedb3db7c0c5ddd06c12110a86829a1606838a86a62a9db2aa387ea62c870e751316992ae2475be1b4c7ecbdf9efe31d822917a6d086afbcec45b693b9f",
+    "55f921e91f1cc4aa9b4bbae8048d6911", # First md5
+    "accb47520537bf91993696b4b3568c681925dac69e7764948e3c7070dd4db481", # Second sha256
+    "397e2bedb3db7c0c5ddd06c12110a86829a1606838a86a62a9db2aa387ea62c870e751316992ae2475be1b4c7ecbdf9efe31d822917a6d086afbcec45b693b9f", # Third sha512
 ]
 licence = "gplv3" # If it is gplv3 it is mandatory to create the source directory with the build.sh file to build application, if you are an owner, you don't need to create this folder 
 size = "7MB" # Total size application
