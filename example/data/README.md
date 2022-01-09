@@ -1,0 +1,1 @@
+# Variables of application and favicon

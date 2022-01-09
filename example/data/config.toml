@@ -3,6 +3,8 @@ name = rkg // Name of application
 architecture = "amd64" // Architecture of compilated application
 version = 0.0.1 // Version of application
 icon = "favicon.svg" // Icon of application
+docs = "http://www.rocketos.com/docs/"
+mantainers = ["Pedro Rosendo", "Kauan Costa"]
 min_specs = false // If True it means that the app has minimum requirements to run, then it will be necessary to put the minimum and recommended requirements and if it is False it means that the app has no minimum requirements to run
 terminal = true // If it is true it means that the app is operated by the command line and false means that the is run via the graphical interface.
 type_application = "utility" // utility, game, office, codecs, drivers, creative...
@@ -17,10 +19,17 @@ checksum_rkg = [
     sha512 = "397e2bedb3db7c0c5ddd06c12110a86829a1606838a86a62a9db2aa387ea62c870e751316992ae2475be1b4c7ecbdf9efe31d822917a6d086afbcec45b693b9f",
 ]
 licence = "gplv3" // If it is gplv3 it is mandatory to create the source directory with the build.sh file to build application, if you are an owner, you don't need to create this folder 
+size = "7MB" // Total size application
+keywords = [
+    "rkg", "package",
+    "manager", "rust",
+] // Keywords for search applications
+age_group = 0 // Minimal age for use the app or game
+permissions_requirements = ["Hard Drive", "Home", "Network", "Root"] // Permissions to run the app
 
 [build]
 compilator = "cargo" //gcc, clang, g++ ...
 
 [changelog]
-0.0.1 = "dsadsdsadsadsadasdasdsdsadsadsads" // Describe changelog 0.0.1
-0.0.2 = "dedeadfasdfefeasdaaefrgtrbsgfbgfb" // Describe changelog 0.0.2
+version_0_0_1 = "Initial App" // Describe changelog 0.0.1
+version_0_0_2 = "Create ... optimize performance ..." // Describe changelog 0.0.2
