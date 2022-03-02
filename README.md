@@ -1,3 +1,3 @@
 ## rkg - Rocket Package
 
-Rkg is a universal package manager written in high performance and secure rust 
+RKG or rocket package is a package manager written in rust with a focus on performance, security and scalability.
