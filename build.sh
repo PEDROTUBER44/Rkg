@@ -1,7 +1,8 @@
 #!/bin/sh
 
 cargo build --release ;
-rm -rf app/* ;
-cp target/release/rkg app/ ;
-rm -rf target/ ;
-echo "rkg successfully compiled" ;
+rm -rf examples/app/* ;
+rm -rf examples/source/* ;
+cp target/release/rkg examples/app/ ;
+cp -r src/ examples/source/ ;
+echo "Rkg as successfully compiled" ;

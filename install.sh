@@ -1,7 +1,5 @@
 #!/bin/sh
 
-echo "Log in as root" ;
-
-cp app/rkg /usr/bin/ ;
-chmod +x /usr/bin/rkg ;
-echo "rkg installed in /usr/bin" ;
+sudo cp app/rkg /usr/bin ;
+sudo chmod +x /usr/bin/rkg ;
+echo "Rkg installed in /usr/bin/"
