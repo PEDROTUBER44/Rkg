@@ -42,7 +42,7 @@ Now create a variable called "terminal" to store whether your app is operated vi
 
     terminal = "terminal"
 
-Now create a variable called "type_application" to store the package type. Values can be "utility", "game", "office", "codec", "driver", "creative":
+Now create a variable called "type_application" to store the package type. Values can be "utility", "game", "office", "codec", "driver", "font", "creative", "mod":
 
     type_application = "utility"
 
